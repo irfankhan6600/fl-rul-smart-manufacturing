@@ -1,0 +1,24 @@
+# Data (download and regenerate; see README §4)
+data/
+*.h5
+*.npz
+Centralized_Study/data/
+
+# NVFlare provisioned kits (contain private keys), runtime state, job archives
+Workspace/*
+!Workspace/project.yml
+fl_artifacts/
+
+# Outputs and checkpoints
+Centralized_Study/RUL/outputs/
+*.pt
+*.pth
+runs/
+
+# Python / editors
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store

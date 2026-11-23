@@ -1,0 +1,2 @@
+Seed,Model,Parameters,RMSE,MAE,NASA_Score,Bias,Cycles,Checkpoint_used,Job_ID,Source_label
+42,N-BEATS,13225476,8.914,7.583,285.502,6.91,202,FL_global_model.pt,33027265-0b64-4f7c-8c7e-6f3c5de3edee,N-BEATS

@@ -1,0 +1,3 @@
+Model,Job_ID,Checkpoint_used,Split,Clients,Cycle_RMSE_macro,Cycle_RMSE_std,Cycle_MAE_macro,Cycle_NASA_macro,Window_RMSE_macro,Scaler_policy,Source
+FedAli,79bd20a1-a759-45aa-97a2-2044f144bf81,FL_global_model.pt,test,6,5.146,2.773,3.64,7.064,6.811,per-client training-cycle scaler,Workspace/fl_artifacts/rul_local_eval/79bd20a1-a759-45aa-97a2-2044f144bf81/local_client_rul_metrics.csv
+FedAli,79bd20a1-a759-45aa-97a2-2044f144bf81,FL_global_model.pt,validation,6,6.1,2.598,4.462,8.593,7.76,per-client training-cycle scaler,Workspace/fl_artifacts/rul_local_eval/79bd20a1-a759-45aa-97a2-2044f144bf81/local_client_rul_metrics.csv

@@ -1,0 +1,2 @@
+Seed,Model,Parameters,RMSE,MAE,NASA_Score,Bias,Cycles,Checkpoint_used,Job_ID,Job_name
+456,N-BEATS,13225476,8.939,7.606,285.519,6.917,202,FL_global_model.pt,a9954f08-4f76-47fc-b4ab-494647799ad9,C-MAPSS_RUL_NBeats_seed456

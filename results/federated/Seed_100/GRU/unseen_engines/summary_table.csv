@@ -1,0 +1,2 @@
+Seed,Model,Parameters,RMSE,MAE,NASA_Score,Bias,Cycles,Checkpoint_used,Job_ID,Job_name
+100,GRU,158977,6.089,4.593,136.634,2.403,202,FL_global_model.pt,95e04577-7842-4431-b1b9-edb61725035d,C-MAPSS_RUL_GRU_seed100

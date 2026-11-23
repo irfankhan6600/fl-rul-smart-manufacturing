@@ -1,0 +1,9 @@
+Model,Params,Job_id,Round_mean_sec,Round_std_sec,Round_mean_min,Total_40rounds_hours,Timing_basis,GPU_single_window_ms,GPU_batch1024_ms,GPU_windows_per_sec,GPU_full_testset_sec,GPU_median_cycle_sec,CPU_single_window_ms,Architecture_note
+DLinear,20995,74c6ee15-26a5-4693-b62c-1bf42e277763,333.73,17.98,5.56,3.71,"measured (round_summary.csv, 6 clients concurrent on 2x A5000)",0.257,1.63,627664,1.8,0.0087,0.187,"linear decomposition, no recurrence"
+GRU,158977,fd8ec961-84b3-4de6-9fb8-6ffaba123a7d,379.84,11.12,6.33,4.22,"measured (round_summary.csv, 6 clients concurrent on 2x A5000)",0.952,23.19,44163,26.1,0.1243,20.275,sequential recurrent (512 steps)
+LSTM,228097,ba36e625-98e5-4995-a96b-b38b3885f784,426.52,11.64,7.11,4.74,"measured (round_summary.csv, 6 clients concurrent on 2x A5000)",2.292,42.83,23906,48.1,0.2296,3.429,sequential recurrent (512 steps)
+FedAli,261121,79bd20a1-a759-45aa-97a2-2044f144bf81,471.82,12.96,7.86,5.24,"measured (round_summary.csv, 6 clients concurrent on 2x A5000)",2.456,60.54,16913,68.0,0.3245,3.817,LSTM + ALP prototype alignment (Sinkhorn)
+1D-CNN,480513,ac5d18c4-7c0a-4061-b1fb-368d637828c8,414.84,12.84,6.91,4.61,"measured (round_summary.csv, 6 clients concurrent on 2x A5000)",0.566,27.83,36790,31.3,0.1492,1.773,parallel dilated convolutions
+PatchTST,1488641,e48c752a-5b6b-4eec-a072-28dd88d45ded,378.25,15.35,6.3,4.2,"measured (round_summary.csv, 6 clients concurrent on 2x A5000)",0.516,10.44,98118,11.7,0.0559,0.627,"patch attention, 63 patches"
+N-BEATS,13225476,33027265-0b64-4f7c-8c7e-6f3c5de3edee,372.3,11.83,6.21,4.14,"measured (round_summary.csv, 6 clients concurrent on 2x A5000)",0.543,3.34,306497,3.8,0.0179,2.583,large FC on flattened window
+Naive,1,7b8c7ec1-a5c4-4c03-8a87-d0b1a1b9e243,311.17,12.58,5.19,3.46,"measured (round_summary.csv, 6 clients concurrent on 2x A5000)",0.004,0.0,258848701,0.0,0.0,0.004,"single learned bias, input ignored"

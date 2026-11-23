@@ -1,0 +1,3 @@
+Model,Job_ID,Checkpoint_used,Split,Clients,Cycle_RMSE_macro,Cycle_RMSE_std,Cycle_MAE_macro,Cycle_NASA_macro,Window_RMSE_macro,Scaler_policy,Source
+Naive,7b8c7ec1-a5c4-4c03-8a87-d0b1a1b9e243,FL_global_model.pt,test,6,21.319,2.955,18.023,83.169,21.783,per-client training-cycle scaler,Workspace/fl_artifacts/rul_local_eval/7b8c7ec1-a5c4-4c03-8a87-d0b1a1b9e243/local_client_rul_metrics.csv
+Naive,7b8c7ec1-a5c4-4c03-8a87-d0b1a1b9e243,FL_global_model.pt,validation,6,18.867,3.446,16.106,62.755,18.934,per-client training-cycle scaler,Workspace/fl_artifacts/rul_local_eval/7b8c7ec1-a5c4-4c03-8a87-d0b1a1b9e243/local_client_rul_metrics.csv

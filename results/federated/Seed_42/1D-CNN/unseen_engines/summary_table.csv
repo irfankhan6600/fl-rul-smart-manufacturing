@@ -1,0 +1,2 @@
+Seed,Model,Parameters,RMSE,MAE,NASA_Score,Bias,Cycles,Checkpoint_used,Job_ID,Source_label
+42,1D-CNN,480513,5.36,4.129,106.48,0.869,202,FL_global_model.pt,ac5d18c4-7c0a-4061-b1fb-368d637828c8,1D-CNN

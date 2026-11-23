@@ -1,0 +1,2 @@
+Seed,Model,Parameters,RMSE,MAE,NASA_Score,Bias,Cycles,Checkpoint_used,Job_ID,Job_name
+456,1D-CNN,480513,6.022,4.442,119.295,0.382,202,FL_global_model.pt,8e51a8f0-960c-49c6-931a-40f0be52ee7f,C-MAPSS_RUL_1D-CNN_seed456

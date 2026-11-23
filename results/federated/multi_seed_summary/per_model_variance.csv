@@ -1,0 +1,9 @@
+Model,N_seeds,RMSE_cv,MAE_cv,NASA_cv,Stability_rating
+LSTM_FedAvg,3,1.94,0.92,4.36,High
+1D-CNN,3,6.28,4.65,6.42,Medium
+LSTM_FedAli,3,2.52,1.94,3.7,High
+DLinear,3,0.72,0.83,1.79,High
+GRU,3,1.14,1.01,4.29,High
+PatchTST,3,11.46,3.8,26.48,Low
+N-BEATS,3,22.29,29.29,43.82,Low
+Naive,3,1.5,1.16,10.15,High

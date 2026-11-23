@@ -1,0 +1,2 @@
+Seed,Model,Parameters,RMSE,MAE,NASA_Score,Bias,Cycles,Checkpoint_used,Job_ID,Source_label
+42,LSTM_FedAvg,228097,5.638,4.121,123.327,2.364,202,FL_global_model.pt,ba36e625-98e5-4995-a96b-b38b3885f784,LSTM

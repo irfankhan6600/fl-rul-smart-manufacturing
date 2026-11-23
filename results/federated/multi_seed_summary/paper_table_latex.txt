@@ -1,0 +1,10 @@
+% Columns: Model & Params & RMSE (mean $\pm$ std) & MAE (mean $\pm$ std) & NASA score (mean $\pm$ std)
+% Seeds: 42, 100, 456; std uses ddof=1; checkpoint FL_global_model.pt; pooled training scaler.
+LSTM\_FedAvg & 228{,}097 & 5.515 $\pm$ 0.107 & 4.108 $\pm$ 0.038 & 119.1 $\pm$ 5.2 \\
+1D-CNN & 480{,}513 & 5.620 $\pm$ 0.353 & 4.217 $\pm$ 0.196 & 111.1 $\pm$ 7.1 \\
+LSTM\_FedAli & 261{,}121 & 5.710 $\pm$ 0.144 & 4.406 $\pm$ 0.085 & 125.3 $\pm$ 4.6 \\
+DLinear & 20{,}995 & 5.712 $\pm$ 0.041 & 4.527 $\pm$ 0.038 & 129.5 $\pm$ 2.3 \\
+GRU & 158{,}977 & 6.169 $\pm$ 0.070 & 4.543 $\pm$ 0.046 & 136.2 $\pm$ 5.8 \\
+PatchTST & 1{,}488{,}641 & 6.643 $\pm$ 0.761 & 4.867 $\pm$ 0.185 & 162.8 $\pm$ 43.1 \\
+N-BEATS & 13{,}225{,}476 & 7.909 $\pm$ 1.763 & 6.496 $\pm$ 1.903 & 227.9 $\pm$ 99.9 \\
+Naive & 1 & 20.574 $\pm$ 0.308 & 17.560 $\pm$ 0.204 & 1562.3 $\pm$ 158.5 \\

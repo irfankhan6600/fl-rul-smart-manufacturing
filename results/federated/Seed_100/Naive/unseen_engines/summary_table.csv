@@ -1,0 +1,2 @@
+Seed,Model,Parameters,RMSE,MAE,NASA_Score,Bias,Cycles,Checkpoint_used,Job_ID,Job_name
+100,Naive,1,20.638,17.603,1599.013,4.908,202,FL_global_model.pt,2ddb267b-4681-4a34-837f-4f80655e05d7,C-MAPSS_RUL_Naive_Baseline_seed100

@@ -1,0 +1,8 @@
+job_id,checkpoint,personalized_state,scope,site,unit,cycles,global_rmse,personalized_rmse,rmse_delta,rmse_change_pct,global_mae,personalized_mae,global_nasa,personalized_nasa,nasa_delta,nasa_improvement_pct,personalization_helps_rmse
+f9029247-c3e1-466c-b550-c43a431cd763,FL_global_model.pt,latest (round 39),client_1,site-1,2,11,5.22,4.1066,-1.1133,-21.33,3.5512,2.864,4.7088,3.8303,-0.8785,18.66,True
+f9029247-c3e1-466c-b550-c43a431cd763,FL_global_model.pt,latest (round 39),client_2,site-2,5,13,8.8863,5.0789,-3.8073,-42.85,7.8207,4.103,17.9336,6.0109,-11.9227,66.48,True
+f9029247-c3e1-466c-b550-c43a431cd763,FL_global_model.pt,latest (round 39),client_3,site-3,10,12,10.1239,9.2692,-0.8546,-8.44,8.4074,6.5302,19.6871,13.7563,-5.9309,30.13,True
+f9029247-c3e1-466c-b550-c43a431cd763,FL_global_model.pt,latest (round 39),client_4,site-4,16,9,4.2301,5.2166,0.9865,23.32,2.9381,3.403,3.6271,4.8072,1.1801,-32.53,False
+f9029247-c3e1-466c-b550-c43a431cd763,FL_global_model.pt,latest (round 39),client_5,site-5,18,11,2.7528,3.3177,0.5649,20.52,1.9238,1.9533,2.4116,2.9183,0.5067,-21.01,False
+f9029247-c3e1-466c-b550-c43a431cd763,FL_global_model.pt,latest (round 39),client_6,site-6,20,10,3.1103,2.0712,-1.0391,-33.41,2.6844,1.501,3.1875,1.728,-1.4595,45.79,True
+f9029247-c3e1-466c-b550-c43a431cd763,FL_global_model.pt,latest (round 39),MEAN_6_CLIENTS,all,,66,5.7205,4.8434,-0.8772,-15.33,4.5543,3.3924,8.5926,5.5085,-3.0841,35.89,True

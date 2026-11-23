@@ -1,0 +1,2 @@
+Seed,Model,Parameters,RMSE,MAE,NASA_Score,Bias,Cycles,Checkpoint_used,Job_ID,Source_label
+42,DLinear,20995,5.664,4.524,130.134,2.615,202,FL_global_model.pt,74c6ee15-26a5-4693-b62c-1bf42e277763,DLinear

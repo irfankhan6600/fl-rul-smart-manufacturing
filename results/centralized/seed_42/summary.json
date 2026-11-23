@@ -1,0 +1,51 @@
+{
+  "seed": 42,
+  "batch_size": 256,
+  "train_units": [
+    2,
+    5,
+    10,
+    16,
+    18,
+    20
+  ],
+  "val_split": "15% of each training unit cycles",
+  "test_units": [
+    11,
+    14,
+    15
+  ],
+  "architecture": "LSTM hidden=128 layers=2 dropout=0.2",
+  "parameters": 228097,
+  "test_rmse": 5.472495770260709,
+  "test_mae": 4.189624822950111,
+  "test_nasa": 113.73816803668605,
+  "test_bias": 1.335504976240146,
+  "test_cycles": 202,
+  "test_windows": 1150521,
+  "unit_rmse": {
+    "11": 7.011422734502665,
+    "14": 5.816240614404929,
+    "15": 2.9374518422969036
+  },
+  "unit_mae": {
+    "11": 5.887222522441232,
+    "14": 4.512847969836248,
+    "15": 2.328084174691565
+  },
+  "unit_nasa": {
+    "11": 56.92719167182813,
+    "14": 40.00798233167654,
+    "15": 16.802994033181374
+  },
+  "pooled_scaler": {
+    "target_mean": 36.62169092474838,
+    "target_std": 22.704732199864097,
+    "input_means": "see scaler_manifest.json",
+    "input_stds": "see scaler_manifest.json",
+    "total_train_windows": 3581212
+  },
+  "started": "2026-09-23T17:04:08",
+  "finished": "2026-09-23T18:37:23",
+  "runtime_minutes": 93.2
+}

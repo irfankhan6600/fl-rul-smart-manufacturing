@@ -1,0 +1,82 @@
+Panel,Group,Client_or_Metric,Metric,Seed,Value
+left,FedAvg Global,Client 1 (Unit 2),RMSE,42,4.853241
+left,FedAvg Global,Client 1 (Unit 2),RMSE,100,2.764957
+left,FedAvg Global,Client 1 (Unit 2),RMSE,456,3.783479
+left,FedAvg Global,Client 2 (Unit 5),RMSE,42,7.248613
+left,FedAvg Global,Client 2 (Unit 5),RMSE,100,16.410551
+left,FedAvg Global,Client 2 (Unit 5),RMSE,456,8.389874
+left,FedAvg Global,Client 3 (Unit 10),RMSE,42,9.40365
+left,FedAvg Global,Client 3 (Unit 10),RMSE,100,3.388542
+left,FedAvg Global,Client 3 (Unit 10),RMSE,456,4.826599
+left,FedAvg Global,Client 4 (Unit 16),RMSE,42,3.64481
+left,FedAvg Global,Client 4 (Unit 16),RMSE,100,1.86872
+left,FedAvg Global,Client 4 (Unit 16),RMSE,456,2.429788
+left,FedAvg Global,Client 5 (Unit 18),RMSE,42,2.566229
+left,FedAvg Global,Client 5 (Unit 18),RMSE,100,6.511838
+left,FedAvg Global,Client 5 (Unit 18),RMSE,456,2.049653
+left,FedAvg Global,Client 6 (Unit 20),RMSE,42,1.96924
+left,FedAvg Global,Client 6 (Unit 20),RMSE,100,2.468856
+left,FedAvg Global,Client 6 (Unit 20),RMSE,456,5.058984
+left,FedAli Global,Client 1 (Unit 2),RMSE,42,5.219954
+left,FedAli Global,Client 1 (Unit 2),RMSE,100,2.528878
+left,FedAli Global,Client 1 (Unit 2),RMSE,456,3.487154
+left,FedAli Global,Client 2 (Unit 5),RMSE,42,8.886256
+left,FedAli Global,Client 2 (Unit 5),RMSE,100,16.141684
+left,FedAli Global,Client 2 (Unit 5),RMSE,456,8.134044
+left,FedAli Global,Client 3 (Unit 10),RMSE,42,10.123859
+left,FedAli Global,Client 3 (Unit 10),RMSE,100,4.016221
+left,FedAli Global,Client 3 (Unit 10),RMSE,456,5.635169
+left,FedAli Global,Client 4 (Unit 16),RMSE,42,4.23011
+left,FedAli Global,Client 4 (Unit 16),RMSE,100,1.687503
+left,FedAli Global,Client 4 (Unit 16),RMSE,456,2.388062
+left,FedAli Global,Client 5 (Unit 18),RMSE,42,2.7528
+left,FedAli Global,Client 5 (Unit 18),RMSE,100,7.023452
+left,FedAli Global,Client 5 (Unit 18),RMSE,456,2.530597
+left,FedAli Global,Client 6 (Unit 20),RMSE,42,3.110312
+left,FedAli Global,Client 6 (Unit 20),RMSE,100,2.302502
+left,FedAli Global,Client 6 (Unit 20),RMSE,456,4.734271
+left,FedAli Personalized,Client 1 (Unit 2),RMSE,42,4.106643
+left,FedAli Personalized,Client 1 (Unit 2),RMSE,100,1.23729
+left,FedAli Personalized,Client 1 (Unit 2),RMSE,456,4.599923
+left,FedAli Personalized,Client 2 (Unit 5),RMSE,42,5.078913
+left,FedAli Personalized,Client 2 (Unit 5),RMSE,100,6.58509
+left,FedAli Personalized,Client 2 (Unit 5),RMSE,456,5.346185
+left,FedAli Personalized,Client 3 (Unit 10),RMSE,42,9.269245
+left,FedAli Personalized,Client 3 (Unit 10),RMSE,100,2.989421
+left,FedAli Personalized,Client 3 (Unit 10),RMSE,456,2.820759
+left,FedAli Personalized,Client 4 (Unit 16),RMSE,42,5.216638
+left,FedAli Personalized,Client 4 (Unit 16),RMSE,100,4.939702
+left,FedAli Personalized,Client 4 (Unit 16),RMSE,456,2.862732
+left,FedAli Personalized,Client 5 (Unit 18),RMSE,42,3.317723
+left,FedAli Personalized,Client 5 (Unit 18),RMSE,100,1.847235
+left,FedAli Personalized,Client 5 (Unit 18),RMSE,456,2.622548
+left,FedAli Personalized,Client 6 (Unit 20),RMSE,42,2.071229
+left,FedAli Personalized,Client 6 (Unit 20),RMSE,100,2.448195
+left,FedAli Personalized,Client 6 (Unit 20),RMSE,456,1.369216
+right,FedAvg Global,RMSE,RMSE,42,4.94763
+right,FedAvg Global,RMSE,RMSE,100,5.568911
+right,FedAvg Global,RMSE,RMSE,456,4.423063
+right,FedAvg Global,MAE,MAE,42,3.585527
+right,FedAvg Global,MAE,MAE,100,4.429205
+right,FedAvg Global,MAE,MAE,456,3.088794
+right,FedAvg Global,NASA Score,NASA Score,42,6.506667
+right,FedAvg Global,NASA Score,NASA Score,100,12.733299
+right,FedAvg Global,NASA Score,NASA Score,456,5.637693
+right,FedAli Global,RMSE,RMSE,42,5.720549
+right,FedAli Global,RMSE,RMSE,100,5.616707
+right,FedAli Global,RMSE,RMSE,456,4.484883
+right,FedAli Global,MAE,MAE,42,4.55427
+right,FedAli Global,MAE,MAE,100,4.510668
+right,FedAli Global,MAE,MAE,456,3.09915
+right,FedAli Global,NASA Score,NASA Score,42,8.592645
+right,FedAli Global,NASA Score,NASA Score,100,12.759802
+right,FedAli Global,NASA Score,NASA Score,456,5.594382
+right,FedAli Personalized,RMSE,RMSE,42,4.843398
+right,FedAli Personalized,RMSE,RMSE,100,3.341155
+right,FedAli Personalized,RMSE,RMSE,456,3.270227
+right,FedAli Personalized,MAE,MAE,42,3.39241
+right,FedAli Personalized,MAE,MAE,100,2.370702
+right,FedAli Personalized,MAE,MAE,456,1.926107
+right,FedAli Personalized,NASA Score,NASA Score,42,5.508508
+right,FedAli Personalized,NASA Score,NASA Score,100,3.619826
+right,FedAli Personalized,NASA Score,NASA Score,456,3.106523

@@ -1,0 +1,2 @@
+Seed,Model,Parameters,RMSE,MAE,NASA_Score,Bias,Cycles,Checkpoint_used,Job_ID,Source_label
+42,LSTM_FedAli,261121,5.554,4.308,124.105,2.465,202,FL_global_model.pt,79bd20a1-a759-45aa-97a2-2044f144bf81,FedAli

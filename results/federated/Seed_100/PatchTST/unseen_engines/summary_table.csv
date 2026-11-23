@@ -1,0 +1,2 @@
+Seed,Model,Parameters,RMSE,MAE,NASA_Score,Bias,Cycles,Checkpoint_used,Job_ID,Job_name
+100,PatchTST,1488641,7.521,5.075,212.428,4.513,202,FL_global_model.pt,7eda7e8c-684d-482f-922c-e078cf25f1f1,C-MAPSS_RUL_PatchTST_seed100
